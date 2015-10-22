@@ -1,0 +1,10 @@
+{namespace t3sbs=T3SBS\T3sbootstrap\ViewHelpers}
+<f:if condition="{data.flexform_custom}">
+	<f:then>
+		<t3sbs:includeFile path="EXT:t3sbootstrap/Resources/Public/Styles/Custom/Carousel-{data.flexform_custom}.css" />
+		<f:render partial="Custom/BootstrapComponents/Carousel-{data.flexform_custom}" arguments="{_all}" />	
+	</f:then>
+	<f:else>
+		<f:render partial="BootstrapComponents/Carousel" arguments="{_all}" />	
+	</f:else>
+</f:if>	

@@ -1,0 +1,16 @@
+<f:if condition="{settings.styles.navbar.style.fixed.custom}">
+	<f:then>
+		<f:render partial="NavBar/NavBarFixCustom" arguments="{_all}" />
+	</f:then>
+	<f:else>
+		<f:if condition="{settings.styles.navbar.style.fixed.top}">
+			<f:then>
+				<f:render partial="NavBar/NavBarFixTop" arguments="{_all}" />
+			</f:then>
+			<f:else>
+				<f:render partial="NavBar/NavBarDefault" arguments="{_all}" />
+			</f:else>
+		</f:if>
+	</f:else>
+</f:if>
+

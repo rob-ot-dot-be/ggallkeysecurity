@@ -1,0 +1,16 @@
+{namespace t3sbs=T3SBS\T3sbootstrap\ViewHelpers}
+
+<t3sbs:fal uid="{carousel.uid}" as="images">
+	<f:for each="{images}" as="image" iteration="iteration-image">
+		<f:if condition="{image.link}">
+			<f:then>
+				<f:link.page pageUid="{image.link}">
+					<f:image src="{image.uid}" treatIdAsReference="1" title="{image.title}" alt="{image.alternative}" width="{data.flexform_width}c-0" height="{data.flexform_height}" class="img-responsive" />
+				</f:link.page>
+			</f:then>
+			<f:else>
+				<f:image src="{image.uid}" treatIdAsReference="1" title="{image.title}" alt="{image.alternative}" width="{data.flexform_width}c-0" height="{data.flexform_height}" class="img-responsive" />
+			</f:else>
+		</f:if>
+	</f:for>
+</t3sbs:fal>

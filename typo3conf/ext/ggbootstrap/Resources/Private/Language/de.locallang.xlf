@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2014-01-05T16:59:16Z" product-name="t3bootstrap">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2014-01-05T16:59:16Z" product-name="t3sbootstrap">
 		<header/>
 		<body>
 
 			<trans-unit id="search-placeholder">
-				<source>search</source>
+				<target>suchen</target>
 			</trans-unit>
 
 			<trans-unit id="moreButton">
-				<source>more</source>
+				<target>weiter</target>
 			</trans-unit>
 
 			<trans-unit id="login">
-				<source>Login</source>
+				<target>Einloggen</target>
 			</trans-unit>
 
 			<trans-unit id="logout">
-				<source>Logout</source>
+				<target>Ausloggen</target>
 			</trans-unit>
-
 		</body>
 	</file>
 </xliff>

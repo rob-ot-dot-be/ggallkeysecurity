@@ -1,57 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2014-01-05T16:59:16Z" product-name="t3sbootstrap">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2014-01-08T20:03:08Z" product-name="t3sbootstrap">
 		<header/>
 		<body>
 
 			<trans-unit id="pages.tx_t3sbootstrap_glyphicon">
-				<source>Bootstrap Glyphicon:</source>
+				<target>Bootstrap Glyphicon:</target>
 			</trans-unit>
 			<trans-unit id="pages.tx_t3sbootstrap_no_glyphicon">
-				<source>No Glyphicon</source>
+				<target>Kein Glyphicon</target>
 			</trans-unit>
 
 			<trans-unit id="tt_content.tx_t3sbootstrap_panel_state">
-				<source>Panel contextual alternatives:</source>
+				<target>Panel-Kontext Alternativen:</target>
 			</trans-unit>
 
 			<trans-unit id="tt_content.tx_t3sbootstrap_media_position">
-				<source>Image position:</source>
+				<target>Bildposition:</target>
 			</trans-unit>
 			<trans-unit id="tt_content.tx_t3sbootstrap_media_position_left">
-				<source>Left</source>
+				<target>Links</target>
 			</trans-unit>
 			<trans-unit id="tt_content.tx_t3sbootstrap_media_position_right">
-				<source>Right</source>
+				<target>Rechts</target>
 			</trans-unit>
 
 			<trans-unit id="tt_content.tx_t3sbootstrap_media_alignment">
-				<source>Image alignment:</source>
+				<target>Bildausrichtung:</target>
 			</trans-unit>
 			<trans-unit id="tt_content.tx_t3sbootstrap_media_alignment_top">
-				<source>Top-aligned image</source>
+				<target>Bild oben ausgerichtet</target>
 			</trans-unit>
 			<trans-unit id="tt_content.tx_t3sbootstrap_media_alignment_middle">
-				<source>Middle-aligned image</source>
+				<target>Bild mittig ausgerichtet</target>
 			</trans-unit>
 			<trans-unit id="tt_content.tx_t3sbootstrap_media_alignment_bottom">
-				<source>Bottom-aligned image</source>
+				<target>Bild unten ausgerichtet</target>
 			</trans-unit>
 
 			<trans-unit id="tt_content.tx_t3sbootstrap_content_slide">
-				<source>Content slide through the rootline (on top of column)</source>
+				<target>Content slide (oben in der Spalte)</target>
 			</trans-unit>
 
 			<trans-unit id="tt_content.tx_t3sbootstrap_image_style">
-				<source>Bootstrap image style</source>
+				<target>Bootstrap Bild Stil</target>
 			</trans-unit>
+
 			<trans-unit id="pages.tx_t3sbootstrap_fontawesome_icon">
-				<source>Fontawesome Icon (e.g. fa-cog)</source>
+				<target>Fontawesome Icon (z.B. fa-cog)</target>
 			</trans-unit>
 			<trans-unit id="pages.tx_t3sbootstrap_linkToTop">
-				<source>Link to top</source>
+				<target>Link zum Seitenanfang anfügen</target>
 			</trans-unit>
 
 		</body>
 	</file>
+
+
 </xliff>

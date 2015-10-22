@@ -1,0 +1,36 @@
+<f:if condition="{carousel.subheader}">
+	<f:then>
+		<f:if condition="{headerIcon}">
+			<f:then>
+				<f:if condition="{carousel.tx_t3sbootstrap_fontawesome_icon}">
+					<f:then>
+						<h3>{f:if(condition: 'headerIcon', then: '<i class="fa {carousel.tx_t3sbootstrap_fontawesome_icon}"></i>')} {carousel.header} <small>{carousel.subheader}</small></h3>
+					</f:then>
+					<f:else>
+						<h3>{carousel.header} <small>{carousel.subheader}</small></h3>
+					</f:else>
+				</f:if>
+			</f:then>
+			<f:else>
+				<h3>{carousel.header} <small>{carousel.subheader}</small></h3>
+			</f:else>
+		</f:if>
+	</f:then>
+	<f:else>
+		<f:if condition="{headerIcon}">
+			<f:then>
+				<f:if condition="{carousel.tx_t3sbootstrap_fontawesome_icon}">
+					<f:then>
+						<h3>{f:if(condition: 'headerIcon', then: '<i class="fa {carousel.tx_t3sbootstrap_fontawesome_icon}"></i>')} {carousel.header}</h3>
+					</f:then>
+					<f:else>
+						<h3>{carousel.header}</h3>
+					</f:else>
+				</f:if>
+			</f:then>
+			<f:else>
+				<h3>{carousel.header}</h3>
+			</f:else>
+		</f:if>
+	</f:else>
+</f:if>

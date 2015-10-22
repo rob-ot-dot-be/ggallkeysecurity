@@ -1,0 +1,17 @@
+<div id="wide-carousel-{data.uid}" class="carousel slide wide-carousel" data-interval="{data.flexform_interval}">
+	<f:render partial="Custom/BootstrapComponents/Carousel-Indicators" arguments="{_all}" />  
+	<div class="carousel-inner">
+		<f:for each="{data.tx_gridelements_view_children}" as="carousel" iteration="iteration-inner">
+			<div class="item row {f:if(condition:'{iteration-inner.isFirst}',then:'active')}">
+				<div class="col-md-6 col-md-push-6 no-padding">
+					<f:render partial="Custom/BootstrapComponents/Carousel-Images" arguments="{_all}" />
+				</div>
+				<div class="col-md-6 col-md-pull-6">
+					<f:render partial="Custom/BootstrapComponents/Carousel-Header" arguments="{_all}" />
+					<f:format.html>{carousel.bodytext}</f:format.html>		
+				</div>
+			</div>
+		</f:for>
+	</div>
+	<f:render partial="Custom/BootstrapComponents/Carousel-Controls" arguments="{_all}" />
+</div>

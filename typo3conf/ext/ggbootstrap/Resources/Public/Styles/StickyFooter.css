@@ -1,0 +1,13 @@
+/* Sticky footer styles
+--------------------------------------------------*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+footer#page-footer.sticky-footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: auto;
+}
