@@ -355,9 +355,9 @@ tt_content.t3sbs_bullets = COA
 tt_content.t3sbs_bullets {
 	20 = FLUIDTEMPLATE
 	20 {
-		file = EXT:t3sbootstrap/Resources/Private/Templates/BootstrapComponents/ListGroup.html
+		file = EXT:ggbootstrap/Resources/Private/Templates/BootstrapComponents/ListGroup.html
 		partialRootPaths {
-			0 = EXT:t3sbootstrap/Resources/Private/Partials/
+			0 = EXT:ggbootstrap/Resources/Private/Partials/
 			10 = {$plugin.tx_t3sbootstrap.view.partialRootPath}
 		}
 	}
@@ -431,9 +431,9 @@ tt_content.t3sbs_panel = COA
 tt_content.t3sbs_panel {
 	20 = FLUIDTEMPLATE
 	20 {
-		file = EXT:t3sbootstrap/Resources/Private/Templates/BootstrapComponents/Panel.html
+		file = EXT:ggbootstrap/Resources/Private/Templates/BootstrapComponents/Panel.html
 		partialRootPaths {
-			0 = EXT:t3sbootstrap/Resources/Private/Partials/
+			0 = EXT:ggbootstrap/Resources/Private/Partials/
 			10 = {$plugin.tx_t3sbootstrap.view.partialRootPath}
 		}
 		variables {
@@ -455,9 +455,9 @@ tt_content.t3sbs_mediaobject {
 
 	20 = FLUIDTEMPLATE
 	20 {
-		file = EXT:t3sbootstrap/Resources/Private/Templates/BootstrapComponents/Mediaobject.html
+		file = EXT:ggbootstrap/Resources/Private/Templates/BootstrapComponents/Mediaobject.html
 		partialRootPaths {
-			0 = EXT:t3sbootstrap/Resources/Private/Partials/
+			0 = EXT:ggbootstrap/Resources/Private/Partials/
 			10 = {$plugin.tx_t3sbootstrap.view.partialRootPath}
 		}
 		variables {
@@ -503,9 +503,9 @@ tt_content.gridelements_pi1.20.10.setup.thumbnails_container {
 	innerWrap.cObject = < lib.bsheader
 	cObject = FLUIDTEMPLATE
 	cObject {
-		file = EXT:t3sbootstrap/Resources/Private/Templates/BootstrapComponents/Thumbnails.html
+		file = EXT:ggbootstrap/Resources/Private/Templates/BootstrapComponents/Thumbnails.html
 		partialRootPaths {
-			0 = EXT:t3sbootstrap/Resources/Private/Partials/
+			0 = EXT:ggbootstrap/Resources/Private/Partials/
 			10 = {$plugin.tx_t3sbootstrap.view.partialRootPath}
 		}
 		variables {
@@ -526,9 +526,9 @@ tt_content.gridelements_pi1.20.10.setup {
 	modal {
 		cObject = FLUIDTEMPLATE
 		cObject {
-			file = EXT:t3sbootstrap/Resources/Private/Templates/BootstrapComponents/Modal.html
+			file = EXT:ggbootstrap/Resources/Private/Templates/BootstrapComponents/Modal.html
 			partialRootPaths {
-				0 = EXT:t3sbootstrap/Resources/Private/Partials/
+				0 = EXT:ggbootstrap/Resources/Private/Partials/
 				10 = {$plugin.tx_t3sbootstrap.view.partialRootPath}
 			}
 		}
@@ -543,9 +543,9 @@ tt_content.gridelements_pi1.20.10.setup.carousel_container {
 	innerWrap.cObject.10 < lib.bsheader
 	cObject = FLUIDTEMPLATE
 	cObject {
-		file = EXT:t3sbootstrap/Resources/Private/Templates/BootstrapComponents/Carousel.html
+		file = EXT:ggbootstrap/Resources/Private/Templates/BootstrapComponents/Carousel.html
 		partialRootPaths {
-			0 = EXT:t3sbootstrap/Resources/Private/Partials/
+			0 = EXT:ggbootstrap/Resources/Private/Partials/
 			10 = {$plugin.tx_t3sbootstrap.view.partialRootPath}
 		}
 		variables {
@@ -576,9 +576,9 @@ tt_content.gridelements_pi1.20.10.setup {
 		innerWrap.cObject = < lib.bsheader
 		cObject = FLUIDTEMPLATE
 		cObject {
-			file = EXT:t3sbootstrap/Resources/Private/Templates/Gridelements/TwoColumns.html
+			file = EXT:ggbootstrap/Resources/Private/Templates/Gridelements/TwoColumns.html
 			partialRootPaths {
-				0 = EXT:t3sbootstrap/Resources/Private/Partials/
+				0 = EXT:ggbootstrap/Resources/Private/Partials/
 				10 = {$plugin.tx_t3sbootstrap.view.partialRootPath}
 			}
 		}
@@ -589,9 +589,9 @@ tt_content.gridelements_pi1.20.10.setup {
 		innerWrap.cObject = < lib.bsheader
 		cObject = FLUIDTEMPLATE
 		cObject {
-			file = EXT:t3sbootstrap/Resources/Private/Templates/Gridelements/ThreeColumns.html
+			file = EXT:ggbootstrap/Resources/Private/Templates/Gridelements/ThreeColumns.html
 			partialRootPaths {
-				0 = EXT:t3sbootstrap/Resources/Private/Partials/
+				0 = EXT:ggbootstrap/Resources/Private/Partials/
 				10 = {$plugin.tx_t3sbootstrap.view.partialRootPath}
 			}
 		}
@@ -601,9 +601,9 @@ tt_content.gridelements_pi1.20.10.setup {
 		innerWrap.cObject = < lib.bsheader
 		cObject = FLUIDTEMPLATE
 		cObject {
-			file = EXT:t3sbootstrap/Resources/Private/Templates/Gridelements/FourColumns.html
+			file = EXT:ggbootstrap/Resources/Private/Templates/Gridelements/FourColumns.html
 			partialRootPaths {
-				0 = EXT:t3sbootstrap/Resources/Private/Partials/
+				0 = EXT:ggbootstrap/Resources/Private/Partials/
 				10 = {$plugin.tx_t3sbootstrap.view.partialRootPath}
 			}
 		}
@@ -659,9 +659,9 @@ tt_content.gridelements_pi1.20.10.setup.tabs_container {
 	# Render navigation using fluid
 	cObject = FLUIDTEMPLATE
 	cObject {
-		file = EXT:t3sbootstrap/Resources/Private/Templates/Gridelements/Tab.html
+		file = EXT:ggbootstrap/Resources/Private/Templates/Gridelements/Tab.html
 		partialRootPaths {
-			0 = EXT:t3sbootstrap/Resources/Private/Partials/
+			0 = EXT:ggbootstrap/Resources/Private/Partials/
 			10 = {$plugin.tx_t3sbootstrap.view.partialRootPath}
 		}
 	}

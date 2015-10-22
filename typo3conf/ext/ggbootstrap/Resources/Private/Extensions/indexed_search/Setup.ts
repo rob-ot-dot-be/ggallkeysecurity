@@ -4,7 +4,7 @@
 
 
 # put this in your root-template to use a better search-form-template:
-# plugin.tx_indexedsearch.templateFile = EXT:t3sbootstrap/Resources/Private/Extensions/indexed_search/indexed_search.tmpl
+# plugin.tx_indexedsearch.templateFile = EXT:ggbootstrap/Resources/Private/Extensions/indexed_search/indexed_search.tmpl
 # plugin.tx_indexedsearch._CSS_DEFAULT_STYLE >
 
 #-------------------------------------------------------------------------------
@@ -37,7 +37,7 @@ lib.extensions.indexed_search.searchbox {
 		20 {
 			insertData = 1
 			value (
-				<input name="tx_indexedsearch[sword]" type="text" class="form-control" placeholder="{LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang.xlf:search-placeholder}">
+				<input name="tx_indexedsearch[sword]" type="text" class="form-control" placeholder="{LLL:EXT:ggbootstrap/Resources/Private/Language/locallang.xlf:search-placeholder}">
 					<span class="input-group-btn">
 						<button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
 					</span>

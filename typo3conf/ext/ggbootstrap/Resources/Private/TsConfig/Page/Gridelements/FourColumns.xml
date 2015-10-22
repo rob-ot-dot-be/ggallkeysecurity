@@ -13,7 +13,7 @@
 
 					<md_one type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.0</label>
+							<label>LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.0</label>
 							<config>
 								<type>input</type>
 								<size>4</size>
@@ -26,7 +26,7 @@
 					</md_one>
 					<md_two type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.1</label>
+							<label>LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.1</label>
 							<config>
 								<type>input</type>
 								<size>4</size>
@@ -39,7 +39,7 @@
 					</md_two>
 					<md_three type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.2</label>
+							<label>LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.2</label>
 							<config>
 								<type>input</type>
 								<size>4</size>
@@ -52,7 +52,7 @@
 					</md_three>
 					<md_four type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.3</label>
+							<label>LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.3</label>
 							<config>
 								<type>input</type>
 								<size>4</size>
@@ -76,7 +76,7 @@
 
 					<sm_one type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.0</label>
+							<label>LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.0</label>
 							<config>
 								<type>input</type>
 								<size>4</size>
@@ -89,7 +89,7 @@
 					</sm_one>
 					<sm_two type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.1</label>
+							<label>LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.1</label>
 							<config>
 								<type>input</type>
 								<size>4</size>
@@ -102,7 +102,7 @@
 					</sm_two>
 					<sm_three type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.2</label>
+							<label>LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.2</label>
 							<config>
 								<type>input</type>
 								<size>4</size>
@@ -115,7 +115,7 @@
 					</sm_three>
 					<sm_four type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.3</label>
+							<label>LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.3</label>
 							<config>
 								<type>input</type>
 								<size>4</size>
@@ -139,7 +139,7 @@
 
 					<xs_one type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.0</label>
+							<label>LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.0</label>
 							<config>
 								<type>input</type>
 								<size>4</size>
@@ -152,7 +152,7 @@
 					</xs_one>
 					<xs_two type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.1</label>
+							<label>LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.1</label>
 							<config>
 								<type>input</type>
 								<size>4</size>
@@ -165,7 +165,7 @@
 					</xs_two>
 					<xs_three type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.2</label>
+							<label>LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.2</label>
 							<config>
 								<type>input</type>
 								<size>4</size>
@@ -178,7 +178,7 @@
 					</xs_three>
 					<xs_four type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.3</label>
+							<label>LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.3</label>
 							<config>
 								<type>input</type>
 								<size>4</size>

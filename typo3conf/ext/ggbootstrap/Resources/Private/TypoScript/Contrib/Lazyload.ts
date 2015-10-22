@@ -1,6 +1,6 @@
 page {
 	includeJSFooter {
-		lazyload = EXT:t3sbootstrap/Resources/Public/Contrib/Lazyload/jquery.lazyload.js
+		lazyload = EXT:ggbootstrap/Resources/Public/Contrib/Lazyload/jquery.lazyload.js
 	}
 }
 

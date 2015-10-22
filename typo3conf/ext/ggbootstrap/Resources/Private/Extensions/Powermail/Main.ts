@@ -3,12 +3,12 @@ plugin.tx_powermail {
 		templateRootPath >
 		templateRootPaths {
 			100 = EXT:powermail/Resources/Private/Templates/
-			200 = EXT:t3sbootstrap/Resources/Private/Extensions/Powermail/Templates/
+			200 = EXT:ggbootstrap/Resources/Private/Extensions/Powermail/Templates/
 		}
 		partialRootPath >
 		partialRootPaths {
 			100 = EXT:powermail/Resources/Private/Partials/
-			200 = EXT:t3sbootstrap/Resources/Private/Extensions/Powermail/Partials/
+			200 = EXT:ggbootstrap/Resources/Private/Extensions/Powermail/Partials/
 		}
 		layoutRootPath >
 		layoutRootPaths {
@@ -29,7 +29,7 @@ page {
 
 	# Include CSS files
 	includeCSS {
-		powermail = EXT:t3sbootstrap/Resources/Public/Styles/Powermail.css
+		powermail = EXT:ggbootstrap/Resources/Public/Styles/Powermail.css
 	}
 }
 [global]

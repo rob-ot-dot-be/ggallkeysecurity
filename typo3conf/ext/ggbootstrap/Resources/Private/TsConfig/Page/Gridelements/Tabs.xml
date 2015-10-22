@@ -7,12 +7,12 @@
 		<general>
 			<ROOT type="array">
 				<TCEforms>
-					<sheetTitle>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.settings</sheetTitle>
+					<sheetTitle>LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.settings</sheetTitle>
 				</TCEforms>
 				<el type="array">
 					<display_type type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.appearance</label>
+							<label>LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.appearance</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
@@ -25,12 +25,12 @@
 					</display_type>
 					<switch_effect type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.effect</label>
+							<label>LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.effect</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
-									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.none</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.fade</numIndex><numIndex index="1">fade</numIndex></numIndex>
+									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.none</numIndex><numIndex index="1"></numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.fade</numIndex><numIndex index="1">fade</numIndex></numIndex>
 								</items>
 								<default></default>
 							</config>

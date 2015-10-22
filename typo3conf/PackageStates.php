@@ -506,6 +506,15 @@ return array (
       array (
       ),
     ),
+    'ggbootstrap' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/ggbootstrap/',
+      'classesPath' => 'Classes/',
+      'suggestions' => 
+      array (
+      ),
+    ),
     'adodb' => 
     array (
       'manifestPath' => '',
@@ -545,15 +554,6 @@ return array (
       'composerName' => 'typo3/cms-filemetadata',
       'state' => 'inactive',
       'packagePath' => 'typo3/sysext/filemetadata/',
-      'classesPath' => 'Classes/',
-      'suggestions' => 
-      array (
-      ),
-    ),
-    'ggbootstrap' => 
-    array (
-      'state' => 'inactive',
-      'packagePath' => 'typo3conf/ext/ggbootstrap/',
       'classesPath' => 'Classes/',
       'suggestions' => 
       array (

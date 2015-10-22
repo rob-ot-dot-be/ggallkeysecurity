@@ -1,9 +1,9 @@
 page {
 	includeCSS {
-		colorboxcss = EXT:t3sbootstrap/Resources/Public/Contrib/Colorbox/Colorbox.css
+		colorboxcss = EXT:ggbootstrap/Resources/Public/Contrib/Colorbox/Colorbox.css
 	}
 	includeJSFooter {
-		colorboxjs = EXT:t3sbootstrap/Resources/Public/Contrib/Colorbox/jquery.colorbox-min.js
+		colorboxjs = EXT:ggbootstrap/Resources/Public/Contrib/Colorbox/jquery.colorbox-min.js
 	}
 }
 

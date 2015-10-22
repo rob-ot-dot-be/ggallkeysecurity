@@ -7,7 +7,7 @@
 		<general>
 			<ROOT type="array">
 				<TCEforms>
-					<sheetTitle>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.general</sheetTitle>
+					<sheetTitle>LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.general</sheetTitle>
 				</TCEforms>
 				<el type="array">
 

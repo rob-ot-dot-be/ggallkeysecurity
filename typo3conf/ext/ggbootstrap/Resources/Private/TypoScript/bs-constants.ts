@@ -29,7 +29,7 @@ plugin.t3sbootstrap_configuration {
  		# cat=t3sbootstrap/a-general/10; type=string; label=External Bootstrap Theme: include an external Bootstrap-Theme
 		externalBootstrapTheme = https://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css
  		# cat=t3sbootstrap/a-general/11; type=string; label=Internal Bootstrap Theme: include an internal Bootstrap-Theme
-		internalBootstrapTheme = EXT:t3sbootstrap/Resources/Public/Styles/T3sbootstrap.css
+		internalBootstrapTheme = EXT:ggbootstrap/Resources/Public/Styles/T3sbootstrap.css
 	}
 	pages {
 		# cat=t3sbootstrap/b-pages/01; type=int+; label=Homepage Uid:
@@ -148,4 +148,4 @@ plugin.t3sbootstrap_configuration {
 [global]
 
 plugin.tx_powermail.settings.javascript.addAdditionalJavaScript = 0
-plugin.tx_news.settings.cssFile = EXT:t3sbootstrap/Resources/Public/Styles/News.css
+plugin.tx_news.settings.cssFile = EXT:ggbootstrap/Resources/Public/Styles/News.css

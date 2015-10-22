@@ -36,7 +36,7 @@
 						<f:format.html>{thumbnail.bodytext}</f:format.html>
 						<f:if condition="{thumbnail.header_link}">
 							<p><f:link.page pageUid="{thumbnail.header_link}" class="btn btn-primary" noCacheHash="1" >
-							{f:translate(key: 'LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang.xml:moreButton')}</f:link.page></p>
+							{f:translate(key: 'LLL:EXT:ggbootstrap/Resources/Private/Language/locallang.xml:moreButton')}</f:link.page></p>
 						</f:if>
 					</div>
 				</f:then>
@@ -46,7 +46,7 @@
 							<f:render section="Header" arguments="{_all}" />
 							<f:if condition="{thumbnail.header_link}">
 								<p><f:link.page pageUid="{thumbnail.header_link}" class="btn btn-primary" noCacheHash="1" >
-								{f:translate(key: 'LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang.xml:moreButton')}</f:link.page></p>
+								{f:translate(key: 'LLL:EXT:ggbootstrap/Resources/Private/Language/locallang.xml:moreButton')}</f:link.page></p>
 							</f:if>
 						</div>
 					</f:if>
@@ -78,7 +78,7 @@
 <f:section name="Image">
 	<f:if condition="{lazyload}">
 		<f:then>
-			<f:image src="EXT:t3sbootstrap/Resources/Public/Images/Placeholder.png" class="img-responsive" title="{images.0.title}"
+			<f:image src="EXT:ggbootstrap/Resources/Public/Images/Placeholder.png" class="img-responsive" title="{images.0.title}"
 			alt="{images.0.alternative}" width="{data.flexform_width}" height="{data.flexform_height}"
 			additionalAttributes="{data-original: '{f:uri.image(src: \'{images.0.uid}\', treatIdAsReference:\'1\', width: \'{data.flexform_width}c-0\',
 			height: \'{data.flexform_height}c-0\')}'}" />

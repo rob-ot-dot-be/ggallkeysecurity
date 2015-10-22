@@ -4,8 +4,8 @@
 
 plugin.tx_news {
 	view {
-		templateRootPaths.200 = EXT:t3sbootstrap/Resources/Private/Extensions/News/Templates/
-		partialRootPaths.200 = EXT:t3sbootstrap/Resources/Private/Extensions/News/Partials/
+		templateRootPaths.200 = EXT:ggbootstrap/Resources/Private/Extensions/News/Templates/
+		partialRootPaths.200 = EXT:ggbootstrap/Resources/Private/Extensions/News/Partials/
 	}
 
 	settings {

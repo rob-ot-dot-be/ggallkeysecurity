@@ -7,7 +7,7 @@
 		<general>
 			<ROOT type="array">
 				<TCEforms>
-					<sheetTitle>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.general</sheetTitle>
+					<sheetTitle>LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.general</sheetTitle>
 				</TCEforms>
 				<el type="array">
 					<custom>
@@ -44,7 +44,7 @@
 					</custom>
 					<width type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.maxImgWidth</label>
+							<label>LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.maxImgWidth</label>
 							<config>
 								<type>input</type>
 								<size>4</size>
@@ -57,7 +57,7 @@
 					</width>
 					<height type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.maxImgHeight</label>
+							<label>LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.maxImgHeight</label>
 							<config>
 								<type>input</type>
 								<size>4</size>
@@ -70,7 +70,7 @@
 					</height>
 					<interval type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.interval</label>
+							<label>LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.interval</label>
 							<config>
 								<type>input</type>
 								<size>5</size>

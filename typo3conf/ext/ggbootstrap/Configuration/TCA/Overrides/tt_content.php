@@ -207,25 +207,25 @@ unset($tempContentColumns);
 if (\TYPO3\CMS\Core\Utility\GeneralUtility::compat_version('7.4')) {
 	$GLOBALS['TCA']['tt_content']['columns']['header_layout']['config']['items'] = Array (
 		array('LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:LGL.default_value', '0'),
-		array('LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:tt_content.header_layout.ph1', '1'),
-		array('LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:tt_content.header_layout.ph2', '6'),
-		array('LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:tt_content.header_layout.2', '2'),
-		array('LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:tt_content.header_layout.3', '3'),
-		array('LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:tt_content.header_layout.4', '4'),
-		array('LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:tt_content.header_layout.5', '5'),
-		array('LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:tt_content.header_layout.6', '7'),
+		array('LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:tt_content.header_layout.ph1', '1'),
+		array('LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:tt_content.header_layout.ph2', '6'),
+		array('LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:tt_content.header_layout.2', '2'),
+		array('LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:tt_content.header_layout.3', '3'),
+		array('LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:tt_content.header_layout.4', '4'),
+		array('LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:tt_content.header_layout.5', '5'),
+		array('LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:tt_content.header_layout.6', '7'),
 		array('LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:header_layout.I.6', '100')
 	);
 } else {
 	$GLOBALS['TCA']['tt_content']['columns']['header_layout']['config']['items'] = Array (
 		array('LLL:EXT:lang/locallang_general.xlf:LGL.default_value', '0'),
-		array('LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:tt_content.header_layout.ph1', '1'),
-		array('LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:tt_content.header_layout.ph2', '6'),
-		array('LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:tt_content.header_layout.2', '2'),
-		array('LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:tt_content.header_layout.3', '3'),
-		array('LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:tt_content.header_layout.4', '4'),
-		array('LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:tt_content.header_layout.5', '5'),
-		array('LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:tt_content.header_layout.6', '7'),
+		array('LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:tt_content.header_layout.ph1', '1'),
+		array('LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:tt_content.header_layout.ph2', '6'),
+		array('LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:tt_content.header_layout.2', '2'),
+		array('LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:tt_content.header_layout.3', '3'),
+		array('LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:tt_content.header_layout.4', '4'),
+		array('LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:tt_content.header_layout.5', '5'),
+		array('LLL:EXT:ggbootstrap/Resources/Private/Language/locallang_be.xlf:tt_content.header_layout.6', '7'),
 		array('LLL:EXT:cms/locallang_ttc.xlf:header_layout.I.6', '100')
 	);
 }
@@ -241,7 +241,7 @@ $GLOBALS['TCA']['tt_content']['types']['t3sbs_menu']['showitem'] = $GLOBALS['TCA
  * BS Video
  */
  // Add flexform
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue('*', 'FILE:EXT:t3sbootstrap/Configuration/FlexForms/video.xml', 't3sbs_video');
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue('*', 'FILE:EXT:ggbootstrap/Configuration/FlexForms/video.xml', 't3sbs_video');
 
 if (\TYPO3\CMS\Core\Utility\GeneralUtility::compat_version('7.4')) {
 	$GLOBALS['TCA']['tt_content']['types']['t3sbs_video']['showitem'] = '

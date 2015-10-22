@@ -2,7 +2,7 @@
 #	Plugin Setup
 #-------------------------------------------------------------------------------
 		
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:t3sbootstrap/Resources/Private/TypoScript/bs-setup.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:ggbootstrap/Resources/Private/TypoScript/bs-setup.ts">
 
 /*
 page.20 = COA

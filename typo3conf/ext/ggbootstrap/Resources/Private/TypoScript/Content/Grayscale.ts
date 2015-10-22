@@ -15,7 +15,7 @@ lib.bsheader {
 }
 
 page.includeCSS {
-	grayscale = EXT:t3sbootstrap/Resources/Public/Styles/Grayscale.css
+	grayscale = EXT:ggbootstrap/Resources/Public/Styles/Grayscale.css
 	grayscale.excludeFromConcatenation = 1
 
 	grayscale.if.value = t3sbootstrap__10
@@ -30,11 +30,11 @@ page.includeJS {
 }
 
 page.includeJSFooter {
-	jquery_easing = EXT:t3sbootstrap/Resources/Public/Scripts/Jquery.easing.min.js
+	jquery_easing = EXT:ggbootstrap/Resources/Public/Scripts/Jquery.easing.min.js
 	jquery_easing.if.value = t3sbootstrap__10
 	jquery_easing.if.equals.field = backend_layout
 
-	grayscale = EXT:t3sbootstrap/Resources/Public/Scripts/Grayscale.js
+	grayscale = EXT:ggbootstrap/Resources/Public/Scripts/Grayscale.js
 	grayscale.excludeFromConcatenation = 1
 	grayscale.if.value = t3sbootstrap__10
 	grayscale.if.equals.field = backend_layout

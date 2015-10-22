@@ -124,11 +124,11 @@ page {
 		file = {$plugin.tx_t3sbootstrap.view.templateRootPath}Main.html
 
 		partialRootPaths {
-			0 = EXT:t3sbootstrap/Resources/Private/Partials/
+			0 = EXT:ggbootstrap/Resources/Private/Partials/
 			10 = {$plugin.tx_t3sbootstrap.view.partialRootPath}
 		}
 		layoutRootPaths {
-			0 = EXT:t3sbootstrap/Resources/Private/Layouts/
+			0 = EXT:ggbootstrap/Resources/Private/Layouts/
 			10 = {$plugin.tx_t3sbootstrap.view.layoutRootPath}
 		}
 
@@ -163,11 +163,11 @@ page {
 		bootstrapt3s = {$plugin.t3sbootstrap_configuration.general.internalBootstrapTheme}
 		bootstrapt3s.if.isFalse = {$plugin.t3sbootstrap_configuration.general.dyncss}
 
-		bootstrapLess = EXT:t3sbootstrap/Resources/Public/Contrib/Bootstrap/less/bootstrap.less
+		bootstrapLess = EXT:ggbootstrap/Resources/Public/Contrib/Bootstrap/less/bootstrap.less
 		bootstrapLess.forceOnTop = 1
 		bootstrapLess.if.isTrue = {$plugin.t3sbootstrap_configuration.general.dyncss}
 
-		bootstrapGlyphicons = EXT:t3sbootstrap/Resources/Public/Contrib/Bootstrap/css/Glyphicons.css
+		bootstrapGlyphicons = EXT:ggbootstrap/Resources/Public/Contrib/Bootstrap/css/Glyphicons.css
 		bootstrapGlyphicons.if.isTrue = {$plugin.t3sbootstrap_configuration.general.dyncss}
 
 		fontAwesome = //maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
@@ -176,7 +176,7 @@ page {
 		fontAwesome.disableCompression = 1
 		fontAwesome.if.isTrue = {$plugin.t3sbootstrap_configuration.general.fontawesome}
 
-		stickyFooter = EXT:t3sbootstrap/Resources/Public/Styles/StickyFooter.css
+		stickyFooter = EXT:ggbootstrap/Resources/Public/Styles/StickyFooter.css
 		stickyFooter.excludeFromConcatenation = 1
 		stickyFooter.disableCompression = 1
 		stickyFooter.if.isTrue = {$plugin.t3sbootstrap_configuration.styles.footer.sticky}
@@ -185,7 +185,7 @@ page {
 
 	# JS to be included
 	includeJS {
-		srcset = EXT:t3sbootstrap/Resources/Public/Contrib/Srcset/srcset.min.js
+		srcset = EXT:ggbootstrap/Resources/Public/Contrib/Srcset/srcset.min.js
 		srcset.if.value = srcset
 		srcset.if.equals = {$styles.content.imgtext.layoutKey}
 	}
@@ -201,7 +201,7 @@ page {
 		jquery.disableCompression = 1
 	}
 	includeJSFooter {
-		treed = EXT:t3sbootstrap/Resources/Public/Scripts/Treed.js
+		treed = EXT:ggbootstrap/Resources/Public/Scripts/Treed.js
 		treed.if.isInList.data = TSFE:id
 		treed.if.value = {$plugin.t3sbootstrap_configuration.pages.sitemap.uidList}
 	}
@@ -309,12 +309,12 @@ print {
 	includeCSS.bootstrapt3s.disableCompression = 1
 	includeCSS.bootstrapt3s.if.isFalse = {$plugin.t3sbootstrap_configuration.general.dyncss}
 
-	includeCSS.fileDefault = EXT:t3sbootstrap/Resources/Public/Styles/Print.css
+	includeCSS.fileDefault = EXT:ggbootstrap/Resources/Public/Styles/Print.css
 	includeCSS.fileDefault.media = print
 	includeCSS.fileDefault.excludeFromConcatenation = 1
 	includeCSS.fileDefault.disableCompression = 1
 
-	includeCSS.fileBootstrapLess = EXT:t3sbootstrap/Resources/Public/Contrib/Bootstrap/less/bootstrap.less
+	includeCSS.fileBootstrapLess = EXT:ggbootstrap/Resources/Public/Contrib/Bootstrap/less/bootstrap.less
 	includeCSS.fileBootstrapLess.if.isTrue = {$plugin.t3sbootstrap_configuration.general.dyncss}
 
 	10 = FLUIDTEMPLATE
