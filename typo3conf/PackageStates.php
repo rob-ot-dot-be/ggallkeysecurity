@@ -550,6 +550,15 @@ return array (
       array (
       ),
     ),
+    'ggbootstrap' => 
+    array (
+      'state' => 'inactive',
+      'packagePath' => 'typo3conf/ext/ggbootstrap/',
+      'classesPath' => 'Classes/',
+      'suggestions' => 
+      array (
+      ),
+    ),
     'indexed_search' => 
     array (
       'manifestPath' => '',

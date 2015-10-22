@@ -16,11 +16,17 @@ return array(
 	),
 	'EXT' => array(
 		'extConf' => array(
+			'extension_builder' => 'a:3:{s:15:"enableRoundtrip";s:0:"";s:15:"backupExtension";s:1:"1";s:9:"backupDir";s:35:"uploads/tx_extensionbuilder/backups";}',
 			'gridelements' => 'a:2:{s:20:"additionalStylesheet";s:0:"";s:19:"nestingInListModule";s:1:"1";}',
 			'rsaauth' => 'a:1:{s:18:"temporaryDirectory";s:0:"";}',
 			'saltedpasswords' => 'a:2:{s:3:"BE.";a:4:{s:21:"saltedPWHashingMethod";s:41:"TYPO3\\CMS\\Saltedpasswords\\Salt\\PhpassSalt";s:11:"forceSalted";i:0;s:15:"onlyAuthService";i:0;s:12:"updatePasswd";i:1;}s:3:"FE.";a:5:{s:7:"enabled";i:1;s:21:"saltedPWHashingMethod";s:41:"TYPO3\\CMS\\Saltedpasswords\\Salt\\PhpassSalt";s:11:"forceSalted";i:0;s:15:"onlyAuthService";i:0;s:12:"updatePasswd";i:1;}}',
 			't3sbootstrap' => 'a:9:{s:14:"default_CTypes";s:1:"1";s:16:"default_BScTypes";s:1:"1";s:12:"default_Flag";s:1:"1";s:10:"rte_config";s:1:"1";s:10:"rte_extend";s:1:"0";s:11:"fontawesome";s:1:"1";s:6:"autoTS";s:1:"0";s:15:"optionalContent";s:1:"0";s:14:"backendLayouts";s:1:"1";}',
 			'version' => 'a:0:{}',
+		),
+	),
+	'EXTCONF' => array(
+		'lang' => array(
+			'availableLanguages' => array(),
 		),
 	),
 	'FE' => array(
