@@ -1,0 +1,5 @@
+<ol class="carousel-indicators">                            
+	<f:for each="{data.tx_gridelements_view_children}" as="carousel-indicators" iteration="iteration-indicators">
+		<li data-track="wide-carousel-{data.uid}-toSlide{iteration-indicators.index}" data-track-action="slideshow" data-target="#wide-carousel-{data.uid}" data-slide-to="{iteration-indicators.index}" {f:if(condition:'{iteration-indicators.isFirst}',then:' class="active"')}></li>
+	</f:for>
+</ol>

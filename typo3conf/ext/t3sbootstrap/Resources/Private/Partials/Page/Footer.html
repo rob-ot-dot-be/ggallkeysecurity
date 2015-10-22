@@ -1,0 +1,28 @@
+<f:if condition="{settings.styles.footer.sticky}">
+	<f:then>
+		<footer id="page-footer" class="footer sticky-footer {f:if(condition: '{settings.styles.navbar.style.inverse}', then: 'footer-inverse', else: 'footer-default')}" >
+			<div class="{f:if(condition: '{settings.styles.container-fluid}',then: 'container-fluid', else: 'container')}">
+				<f:cObject typoscriptObjectPath="lib.content.footer" />
+			</div>
+		</footer>
+
+	</f:then>
+	<f:else>
+		<f:if condition="{settings.styles.navbar.footer.fullwidth}">
+			<f:then>
+				<footer id="page-footer" class="footer {f:if(condition: '{settings.styles.navbar.style.inverse}', then: 'footer-inverse', else: 'footer-default')}" >
+					<div class="{f:if(condition: '{settings.styles.container-fluid}',then: 'container-fluid', else: 'container')}">
+						<f:cObject typoscriptObjectPath="lib.content.footer" />
+					</div>
+				</footer>
+			</f:then>
+			<f:else>
+				<div class="{f:if(condition: '{settings.styles.container-fluid}',then: 'container-fluid', else: 'container')}">
+					<footer id="page-footer" class="footer {f:if(condition: '{settings.styles.navbar.style.inverse}', then: 'footer-inverse', else: 'footer-default')}" >
+						<f:cObject typoscriptObjectPath="lib.content.footer" />
+					</footer>
+				</div>
+			</f:else>
+		</f:if>
+	</f:else>
+</f:if>

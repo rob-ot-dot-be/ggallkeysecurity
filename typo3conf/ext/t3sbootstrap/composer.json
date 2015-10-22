@@ -1,0 +1,16 @@
+{
+    "name": "t3sb/t3sbootstrap",
+    "type": "typo3-cms-extension",
+    "description": "Startup extension to use bootstrap 3 classes and components out of the box. Suitable for small projects to save development time. Works with dyncss - Less Parser!",
+    "homepage": "http://www.t3sbootstrap.de",
+    "license": ["GPL-2.0+"],
+    "version": "2.1.0",
+	"require": {
+		"typo3/cms-core": ">=6.2.10,<7.5"
+	},
+	"autoload": {
+        "psr-4": {
+            "T3SBS\\T3sbootstrap\\": "Classes"
+        }
+    }    
+}

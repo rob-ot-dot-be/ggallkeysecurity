@@ -1,0 +1,34 @@
+# Name of the theme (required)
+title: t3sbootstrap
+description      : |
+  Startup extension to use bootstrap 3 classes and components out of the box.
+
+  Suitable for small projects to save development time.
+
+# Keywords (optional)
+keywords:
+  - Bootstrap 3
+  - responsive design
+
+authors:
+    - Helmut Hackbarth <typo3@t3solution.de>
+
+
+# Constants categories which are used for constants in this theme
+constants:
+  availableCategories: [t3sbootstrap]
+
+# Screenshots for the preview gallery (optional, multiple possible)
+screenshots:
+  -
+    file           : EXT:t3sbootstrap/Meta/Screenshots/screenshot.png
+    caption        : www.t3sbootstrap.de
+  -
+    file           : EXT:t3sbootstrap/Meta/Screenshots/screenshot-01.png
+    caption        : www.t3sbootstrap.de
+  -
+    file           : EXT:t3sbootstrap/Meta/Screenshots/screenshot-02.png
+    caption        : www.t3sbootstrap.de
+  -
+    file           : EXT:t3sbootstrap/Meta/Screenshots/screenshot-03.png
+    caption        : www.t3sbootstrap.de
