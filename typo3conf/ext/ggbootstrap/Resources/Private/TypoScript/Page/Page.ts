@@ -149,8 +149,8 @@ page {
 
 	# CSS files to be included
 	includeCSS {
-		bootstrap = //netdna.bootstrapcdn.com/bootstrap/{$plugin.t3sbootstrap_configuration.bootstrap.version}/css/bootstrap.min.css
-		bootstrap.external = 1
+		bootstrap = assets/css/screen.css
+		bootstrap.external = 0
 		bootstrap.excludeFromConcatenation = 1
 		bootstrap.disableCompression = 1
 		bootstrap.forceOnTop = 1
