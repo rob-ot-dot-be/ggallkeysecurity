@@ -89,7 +89,7 @@ plugin.t3sbootstrap_configuration {
 		# cat=t3sbootstrap/e-styles/20; type=boolean; label=NavBar Inverted:
 		navbar.style.inverse = 1
 		# cat=t3sbootstrap/e-styles/21; type=boolean; label=NavBar Fixed to top:
-		navbar.style.fixed.top = 1
+		navbar.style.fixed.top = 0
 		# cat=t3sbootstrap/e-styles/21; type=boolean; label=Custom NavBar (fixed to top):
 		navbar.style.fixed.custom = 0
 		# cat=t3sbootstrap/e-styles/22; type=boolean; label=NavBar on top: If disabled, you have to disable "NavBar Fixed to top" also.
