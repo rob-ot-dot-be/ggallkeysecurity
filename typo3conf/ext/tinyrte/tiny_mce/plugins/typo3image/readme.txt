@@ -1,0 +1,1 @@
+This is the Imagebrowser-Plugin for Typo3.

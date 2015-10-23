@@ -5,9 +5,10 @@ return array(
 		'explicitADmode' => 'explicitAllow',
 		'installToolPassword' => '$P$CsuiWSuvJOfLppcSWp2GK2amIgsuzW1',
 		'loginSecurityLevel' => 'rsa',
+		'versionNumberInFilename' => '0',
 	),
 	'DB' => array(
-		'database' => 'aks',
+		'database' => 'aksDev',
 		'extTablesDefinitionScript' => 'extTables.php',
 		'host' => 'localhost',
 		'password' => 'root',
@@ -16,13 +17,19 @@ return array(
 	),
 	'EXT' => array(
 		'extConf' => array(
+			'dix_urltool' => 'a:0:{}',
 			'extension_builder' => 'a:3:{s:15:"enableRoundtrip";s:0:"";s:15:"backupExtension";s:1:"1";s:9:"backupDir";s:35:"uploads/tx_extensionbuilder/backups";}',
 			'ggbootstrap' => 'a:0:{}',
 			'gridelements' => 'a:2:{s:20:"additionalStylesheet";s:0:"";s:19:"nestingInListModule";s:1:"1";}',
+			'powermail' => 'a:8:{s:12:"disableIpLog";s:1:"0";s:27:"disableMarketingInformation";s:1:"0";s:20:"disableBackendModule";s:1:"0";s:24:"disablePluginInformation";s:1:"0";s:13:"enableCaching";s:1:"0";s:28:"enableTableGarbageCollection";s:1:"0";s:15:"l10n_mode_merge";s:1:"0";s:29:"replaceIrreWithElementBrowser";s:1:"0";}',
+			'realurl' => 'a:5:{s:10:"configFile";s:26:"typo3conf/realurl_conf.php";s:14:"enableAutoConf";s:1:"1";s:14:"autoConfFormat";s:1:"0";s:12:"enableDevLog";s:1:"0";s:19:"enableChashUrlDebug";s:1:"0";}',
 			'rsaauth' => 'a:1:{s:18:"temporaryDirectory";s:0:"";}',
 			'saltedpasswords' => 'a:2:{s:3:"BE.";a:4:{s:21:"saltedPWHashingMethod";s:41:"TYPO3\\CMS\\Saltedpasswords\\Salt\\PhpassSalt";s:11:"forceSalted";i:0;s:15:"onlyAuthService";i:0;s:12:"updatePasswd";i:1;}s:3:"FE.";a:5:{s:7:"enabled";i:1;s:21:"saltedPWHashingMethod";s:41:"TYPO3\\CMS\\Saltedpasswords\\Salt\\PhpassSalt";s:11:"forceSalted";i:0;s:15:"onlyAuthService";i:0;s:12:"updatePasswd";i:1;}}',
+			'seo_basics' => 'a:1:{s:10:"xmlSitemap";s:1:"1";}',
+			'static_info_tables' => 'a:1:{s:13:"enableManager";s:1:"0";}',
 			't3sbootstrap' => 'a:9:{s:14:"default_CTypes";s:1:"1";s:16:"default_BScTypes";s:1:"1";s:12:"default_Flag";s:1:"1";s:10:"rte_config";s:1:"1";s:10:"rte_extend";s:1:"0";s:11:"fontawesome";s:1:"1";s:6:"autoTS";s:1:"0";s:15:"optionalContent";s:1:"0";s:14:"backendLayouts";s:1:"1";}',
 			'version' => 'a:0:{}',
+			'wt_spamshield' => 'a:0:{}',
 		),
 	),
 	'EXTCONF' => array(
@@ -45,6 +52,12 @@ return array(
 		'im_version_5' => 'im6',
 		'image_processing' => 1,
 		'jpg_quality' => '80',
+	),
+	'INSTALL' => array(
+		'wizardDone' => array(
+			'TYPO3\CMS\Install\Updates\TceformsUpdateWizard' => 'tt_content:image,pages:media,pages_language_overlay:media',
+			'TYPO3\CMS\Install\Updates\TruncateSysFileProcessedFileTable' => 1,
+		),
 	),
 	'SYS' => array(
 		'caching' => array(

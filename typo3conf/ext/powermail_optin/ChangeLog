@@ -1,0 +1,32 @@
+2015-08-25 Surena Golijani <sg@cabag.ch>
+	* set version to 1.2.0 preparing TER upload
+	* minimal code cleanups
+
+2015-02-19 Surena Golijani <sg@cabag.ch>
+	* version 71.0.2-6.2
+	* added french language labels to locallang.xml
+	* added email_text3 to confirmation mail
+
+2015-02-09 Surena Golijani <sg@cabag.ch>
+	* version 61.0.2-6.2
+	* added language key fr to locallang.xml
+
+2015-02-08 Surena Golijani <sg@cabag.ch>
+	* version 51.0.1-6.2
+	* edited lib/class.tx_powermail_optin_confirm.php: get localized mail id, solving issue #13170
+
+2015-01-07 Xiaoling Peng <xp@cabag.ch>
+	* version 41.0.1-6.2
+	* fixed class.tx_powermail_optin_submit.php on line 200, so it can take translate from TypoScript
+
+2015-01-06 Surena Golijani <sg@cabag.ch>
+	* version 31.0.1-6.2
+	* fixed security fix: edited class.tx_powermail_optin_confirm.php, class.tx_powermail_optin_externdbentry.php, class.tx_powermail_optin_session.php
+
+2015-01-06 Surena Golijani <sg@cabag.ch>
+	* version 21.0.1-6.2
+	* integrated security fix from github in lib/class.tx_powermail_optin_div.php
+
+2015-01-06 Surena Golijani <sg@cabag.ch>
+	* version 11.0.1-6.2
+	* Fixes for 6.2 compatibility

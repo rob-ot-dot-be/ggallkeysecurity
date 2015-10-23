@@ -1,0 +1,22 @@
+# POWERMAIL PLUGIN #
+plugin.tx_powermailoptin {
+	template.confirmationemail = {$plugin.powermail_optin.template.confirmationemail}
+	template.confirmationmessage = {$plugin.powermail_optin.template.confirmationmessage}
+	email.receiverOverwrite = {$plugin.powermail_optin.email.receiverOverwrite}
+	email.cc = {$plugin.powermail_optin.email.cc}
+	email.subjectoverwrite = {$plugin.powermail_optin.email.subjectoverwrite}
+	email.senderOverwrite = {$plugin.powermail_optin.email.senderOverwrite}
+	email.senderEmailOverwrite = {$plugin.powermail_optin.email.senderEmailOverwrite}
+	debug = {$plugin.powermail_optin.debug}
+}
+
+# TRANSLATE INFO: 
+# translate key from powermail_optin/lib/locallang.xml
+# plugin.tx_powermail_pi1 {
+#   _LOCAL_LANG {
+#     de {
+#       email_text1 = Wir danken für die Benutzung unseres Formulares. Um den Vorgang abzuschließen, bitten wir Sie, den untenstehenden Link zu folgen:
+#       email_text2 = Ihr Homepage Team
+#     }
+#  }
+# }

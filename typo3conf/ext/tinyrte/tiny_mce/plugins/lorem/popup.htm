@@ -1,0 +1,58 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>{#lorem_dlg.title}</title>
+	<script language="javascript" type="text/javascript" src="../../tiny_mce_popup.js"></script>
+	<script language="javascript" type="text/javascript" src="../../plugins/lorem/loremipsum.js"></script>
+	<script language="javascript" type="text/javascript">
+		tinyMCEPopup.requireLangPack();
+		function render() {
+			var lipsum = new loremipsum();
+			switch (document.forms[0].what.value) {
+				case "0":
+					output = lipsum.getWords(document.forms[0].amount.value);
+					break;
+				case "1":
+					output = lipsum.getLetters(document.forms[0].amount.value);
+					break;
+			}				
+			tinyMCE.execCommand('mceInsertContent', false, output);
+			tinyMCEPopup.close();
+		}
+	</script>
+	<base target="_self" />
+</head>
+<body> 
+	<form onsubmit="insert();return false;">
+		<h3>{#lorem_dlg.title}</h3>
+		<div style="margin-top: 10px; margin-bottom: 10px">
+			<table width="300" border="0" cellspacing="2" cellpadding="0">
+			  <tr>
+			    <td width="128">{#lorem_dlg.render_what}:</td>
+			    <td width="166">
+			      <select name="what">
+			        <option value="0" selected>{#lorem_dlg.render_words}</option>
+			        <option value="1">{#lorem_dlg.render_letters}</option>
+			      </select>
+			    </td>
+			  </tr>
+			  <tr>
+			    <td width="128">{#lorem_dlg.render_amount}:</td>
+			    <td width="166">
+			      <input type="text" name="amount" maxlength="3" size="3" value="20"/>
+			    </td>
+			  </tr>
+			</table>
+		</div>
+
+		<div class="mceActionPanel">
+			<div style="float: left">
+				<input type="button" id="insert" name="insert" value="{#insert}" onclick="render();" />
+			</div>
+
+			<div style="float: right">
+				<input type="button" id="cancel" name="cancel" value="{#cancel}" onclick="tinyMCEPopup.close();" />
+			</div>
+		</div>
+	</form>
+</body> 
+</html> 

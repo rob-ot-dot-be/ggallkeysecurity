@@ -1,0 +1,3 @@
+page.includeJS {
+	file448 = EXT:powermail_mul/lib/script/multifile_compressed.js
+}

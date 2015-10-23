@@ -1,0 +1,5 @@
+  # cat=basic; type=options[options,freetext]; label= Style Entry Method: Should the style entry method be a predefined list of classes/labels or freetext?
+mode = freetext
+
+  # cat=basic; type=string; label= Definition of list options: If "options" is set above, then the following definition will be used as the available classes. (label:class,label:class...)
+definitions = Float left:left-float, Float right:right-float, 50% Width:width-50pc

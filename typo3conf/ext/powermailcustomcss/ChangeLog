@@ -1,0 +1,11 @@
+2011-01-13 Andrew Plank  <plankmeister@yahoo.com>
+	* Added option to set a pre-defined list of CSS classes in the EM
+
+
+2011-01-12 Andrew Plank  <plankmeister@yahoo.com>
+	* Fixed bug with change of API in different versions of Powermail
+
+
+2011-01-12 Andrew Plank  <plankmeister@yahoo.com>
+	* initial code generated with kickstarter
+

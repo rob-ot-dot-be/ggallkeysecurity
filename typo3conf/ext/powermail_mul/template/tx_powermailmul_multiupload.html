@@ -1,0 +1,32 @@
+Fieldwrap for file fields like <input type="file" />
+This is the template for the multiple upload type.
+Additional markers used in this template:
+###AMOUNT###    Sets the maximum number of files to be uploaded. Is set in flexform.
+<!-- ###POWERMAIL_FIELDWRAP_HTML_MULTIUPLOAD### begin -->
+	<div class="tx_powermail_pi1_fieldwrap_html tx_powermail_pi1_fieldwrap_html_file tx_powermail_pi1_fieldwrap_html_###POWERMAIL_FIELD_UID###">
+		<p>###LABEL_AMOUNT###</p>
+		<label for="###LABEL_NAME###">###LABEL######MANDATORY_SYMBOL###</label>
+		<input ###ID### type="file" ###NAME######CLASS######SIZE###/>
+		<div id="files_list"></div>
+		<script>
+			<!-- Create an instance of the multiSelector class, pass it the output target and the max number of files -->
+			var multi_selector = new MultiSelector( document.getElementById( 'files_list' ), '###LABEL_NAME###' , ###AMOUNT###, '###LABEL_DELETE###', ###START### );
+			<!-- Pass in the file element -->
+			multi_selector.addElement( document.getElementById( '###LABEL_NAME###' ) );
+		</script>
+	</div>
+<!-- ###POWERMAIL_FIELDWRAP_HTML_MULTIUPLOAD### end -->
+
+
+Template for listing of uploaded files
+<!-- ###POWERMAIL_FIELDWRAP_HTML_MULTIUPLOAD_LIST### begin -->
+	<div class="tx_powermail_pi1_fieldwrap_html tx_powermail_pi1_fieldwrap_html_file tx_powermail_pi1_fieldwrap_html_###POWERMAIL_FIELD_UID###">
+        <!-- ###CONTENT### -->
+            <!-- ###ITEM### -->
+                ###FILE###
+				<a href="###DELETEFILE_URL###"><img src="###DELETEFILE###" class="deletefile" /></a>
+                <br />
+            <!-- ###ITEM### -->
+         <!-- ###CONTENT### -->
+     </div>
+<!-- ###POWERMAIL_FIELDWRAP_HTML_MULTIUPLOAD_LIST### end -->

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_powermail_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="email_subject">Confirmation needed</label>
+			<label index="email_linklabel">Confirmation link</label>
+			<label index="email_text1">Thank you for using our form on our homepage. To complete the form operation, please use the link below:</label>
+			<label index="email_text2">Your homepage team</label>
+			<label index="email_text3">Firmenname</label>
+			<label index="powermailoptin_ll_confirmation_message">Thank you for your registration . We've sent you an email with a confirmation link. Please use this link to finalise your request.</label>
+			<label index="database_content">No mailcontent: Double opt-in mail was sent instead of default mail</label>
+			<label index="database_noip">IP logging disabled</label>
+			<label index="confirm_redirect">If you can see this, please use this link</label>
+			<label index="confirm_alreadyfilled">You have already finished the confirmation process.</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="email_subject">Bestätigung benötigt</label>
+			<label index="email_linklabel">Bestätigungslink</label>
+			<label index="email_text1">Wir danken für die Benutzung unseres Formulares. Um den Vorgang abzuschließen, bitten wir Sie, den untenstehenden Link zu folgen:</label>
+			<label index="email_text2">Ihr Homepage Team</label>
+			<label index="email_text3">Firmenname</label>
+			<label index="powermailoptin_ll_confirmation_message">Vielen Dank für Ihre Anmeldung. Sie haben soeben eine E-Mail mit einem Bestätigungs-Link erhalten. Bitte nutzen Sie diesen Link zur abschliessenden Freischaltung.</label>
+			<label index="database_content">Kein Email Inhalt: Double opt-in E-Mail wurde versendet</label>
+			<label index="database_noip">IP Speicherung deaktiviert</label>
+			<label index="confirm_redirect">Wenn Sie dies lesen können, klicken Sie bitte auf diesen Link</label>
+			<label index="confirm_alreadyfilled">Sie haben Ihre Anmeldung bereits erfolgreich bestätigt.</label>
+		</languageKey>
+		<languageKey index="fr" type="array">
+			<label index="email_subject">Confirmation nécessaire</label>
+			<label index="email_linklabel">Lien de confirmation</label>
+			<label index="email_text1">Nous vous remercions pour l'intérêt que vous portez aux communiqués de presse du Groupe Steiner. Pour terminer le processus d'enregistrement, veuillez cliquer sur le lien ci-dessous:</label>
+			<label index="email_text2">Cordialement</label>
+			<label index="email_text3">Firmenname</label>
+			<label index="powermailoptin_ll_confirmation_message">Nous vous remercions pour votre inscription. Vous venez de recevoir un e-mail avec un lien de confirmation. Veuillez utiliser ce lien pour activer votre inscription.</label>
+			<label index="database_content">Aucun contenu dans l'e-mail: un e-mail de reconfirmation (double opt-in) a été envoyé.</label>
+			<label index="database_noip">Enregistrement IP désactivé.</label>
+			<label index="confirm_redirect">Si vous pouvez lire ceci, merci de cliquer sur ce lien.</label>
+			<label index="confirm_alreadyfilled">Vous avez déjà confirmé votre inscription avec succès.</label>
+		</languageKey>
+	</data>
+</T3locallang>

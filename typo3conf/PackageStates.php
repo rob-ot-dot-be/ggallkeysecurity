@@ -486,12 +486,61 @@ return array (
       array (
       ),
     ),
+    'wt_spamshield' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/wt_spamshield/',
+      'classesPath' => 'Classes/',
+      'suggestions' => 
+      array (
+      ),
+    ),
     't3sbootstrap' => 
     array (
       'manifestPath' => '',
       'composerName' => 't3sb/t3sbootstrap',
       'state' => 'active',
       'packagePath' => 'typo3conf/ext/t3sbootstrap/',
+      'classesPath' => 'Classes/',
+      'suggestions' => 
+      array (
+      ),
+    ),
+    'static_info_tables' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/static_info_tables/',
+      'classesPath' => 'Classes/',
+      'suggestions' => 
+      array (
+      ),
+      'manifestPath' => '',
+      'composerName' => 'sjbr/static_info_tables',
+    ),
+    'seo_basics' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/seo_basics/',
+      'classesPath' => 'Classes/',
+      'suggestions' => 
+      array (
+      ),
+      'manifestPath' => '',
+      'composerName' => 'b13/typo3-seo_basics',
+    ),
+    'realurl' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/realurl/',
+      'classesPath' => 'Classes/',
+      'suggestions' => 
+      array (
+      ),
+    ),
+    'powermail' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/powermail/',
       'classesPath' => 'Classes/',
       'suggestions' => 
       array (
@@ -515,6 +564,15 @@ return array (
       array (
       ),
     ),
+    'dix_urltool' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/dix_urltool/',
+      'classesPath' => 'Classes/',
+      'suggestions' => 
+      array (
+      ),
+    ),
     'adodb' => 
     array (
       'manifestPath' => '',
@@ -526,12 +584,30 @@ return array (
       array (
       ),
     ),
+    'automaketemplate' => 
+    array (
+      'state' => 'inactive',
+      'packagePath' => 'typo3conf/ext/automaketemplate/',
+      'classesPath' => 'Classes/',
+      'suggestions' => 
+      array (
+      ),
+    ),
     'dbal' => 
     array (
       'manifestPath' => '',
       'composerName' => 'typo3/cms-dbal',
       'state' => 'inactive',
       'packagePath' => 'typo3/sysext/dbal/',
+      'classesPath' => 'Classes/',
+      'suggestions' => 
+      array (
+      ),
+    ),
+    'dragdrop' => 
+    array (
+      'state' => 'inactive',
+      'packagePath' => 'typo3conf/ext/dragdrop/',
       'classesPath' => 'Classes/',
       'suggestions' => 
       array (
@@ -559,6 +635,15 @@ return array (
       array (
       ),
     ),
+    'imagecycle' => 
+    array (
+      'state' => 'inactive',
+      'packagePath' => 'typo3conf/ext/imagecycle/',
+      'classesPath' => 'Classes/',
+      'suggestions' => 
+      array (
+      ),
+    ),
     'indexed_search' => 
     array (
       'manifestPath' => '',
@@ -576,6 +661,15 @@ return array (
       'composerName' => 'typo3/cms-indexed-search-mysql',
       'state' => 'inactive',
       'packagePath' => 'typo3/sysext/indexed_search_mysql/',
+      'classesPath' => 'Classes/',
+      'suggestions' => 
+      array (
+      ),
+    ),
+    'jftcaforms' => 
+    array (
+      'state' => 'inactive',
+      'packagePath' => 'typo3conf/ext/jftcaforms/',
       'classesPath' => 'Classes/',
       'suggestions' => 
       array (
@@ -609,6 +703,33 @@ return array (
       'composerName' => 'typo3/cms-openid',
       'state' => 'inactive',
       'packagePath' => 'typo3/sysext/openid/',
+      'classesPath' => 'Classes/',
+      'suggestions' => 
+      array (
+      ),
+    ),
+    'powermail_mul' => 
+    array (
+      'state' => 'inactive',
+      'packagePath' => 'typo3conf/ext/powermail_mul/',
+      'classesPath' => 'Classes/',
+      'suggestions' => 
+      array (
+      ),
+    ),
+    'powermail_optin' => 
+    array (
+      'state' => 'inactive',
+      'packagePath' => 'typo3conf/ext/powermail_optin/',
+      'classesPath' => 'Classes/',
+      'suggestions' => 
+      array (
+      ),
+    ),
+    'powermailcustomcss' => 
+    array (
+      'state' => 'inactive',
+      'packagePath' => 'typo3conf/ext/powermailcustomcss/',
       'classesPath' => 'Classes/',
       'suggestions' => 
       array (
@@ -653,6 +774,15 @@ return array (
       'composerName' => 'typo3/cms-taskcenter',
       'state' => 'inactive',
       'packagePath' => 'typo3/sysext/taskcenter/',
+      'classesPath' => 'Classes/',
+      'suggestions' => 
+      array (
+      ),
+    ),
+    'tinyrte' => 
+    array (
+      'state' => 'inactive',
+      'packagePath' => 'typo3conf/ext/tinyrte/',
       'classesPath' => 'Classes/',
       'suggestions' => 
       array (

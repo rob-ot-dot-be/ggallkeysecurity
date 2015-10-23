@@ -1,0 +1,24 @@
+# cat=basic; type=input; label= Styles: Stylesheet to use in the Editor. Make sure that these Styles available in FE!
+	MCEstyle=typo3conf/ext/tinyrte/sample.css
+
+# cat=basic; type=input; label= RTE-Width: Initial width of the RTE. 
+	MCEwidth = 690
+
+# cat=basic; type=input; label= RTE-Height: Initial height of the RTE.
+	MCEheight = 300
+
+# cat=basic; type=input; label= Visible Buttons: A semicolon seperates the Rows. Maximum 4 rows can be configured. A pipe specify a Seperator. You can use the configurator on http://tinyrte.outraxx.de/buttonconf/ to simply edit this.
+	MCEbuttons=newdocument,|,bold,italic,underline,strikethrough,|,sub,sup,|,justifyleft,justifycenter,justifyright,justifyfull,|,cut,copy,paste,pastetext,pasteword,|,search,replace;bullist,numlist,|,outdent,indent,|,undo,redo,|,typo3link,unlink,anchor,typo3image,|,table,visualaid,|,emotions,flash,|,advhr,hr,|,removeformat,charmap;ltr,rtl,|,print,insertdate,inserttime,|,preview,zoom,fullscreen,|,help,cleanup,code,insertlayer,moveforward,movebackward,absolute;styleselect,|,formatselect,|,fontselect,|,fontsizeselect,|,forecolor,backcolor,|,spellchecker
+
+# cat=basic; type=boolean; label= Resizing: This option gives you the ability to enable/disable the resizing button.
+	MCEtheme_advanced_resizing=1
+
+# cat=basic; type=boolean; label= Resizing horizontal: This option gives you the ability to enable/disable the horizontal resizing.
+	MCEtheme_advanced_resize_horizontal=0
+
+# cat=basic; type=boolean; label= Use Compressed Script: Serverside GZip compresses TinyMCE to reduce overall download size. Makes TinyMCE 75% smaller and a lot faster to load. This required the php-zlib-extension is«nt enabled!
+	MCEcompressed=0
+
+# cat=basic; type=boolean; label= Store link attributes: Set this to 1 if tinyRTE should store any attributes to a link like what kind of link etc. Very usefull with the TYPO3-Filebrowser. This replace the function user_file2http.
+	MCEstore_filelink_attrib=1
+
