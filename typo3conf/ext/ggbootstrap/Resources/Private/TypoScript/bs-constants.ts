@@ -39,6 +39,15 @@ plugin.t3sbootstrap_configuration {
 		# cat=t3sbootstrap/b-pages/03; type=small; label=Pages with BOOTSTRAP Sitemap: Comma-separated list of page ids. (used for condition javaScript treed.js)
 		sitemap.uidList =
 	}
+
+	logo {
+		# cat=t3sbootstrap/b-logo/01; type=string; label=logo Name
+		logoName = mainLogo.png
+		# cat=t3sbootstrap/b-logo/02; type=string; label=logo Title
+		logoTitle = Title for logo
+		# cat=t3sbootstrap/b-logo/03; type=string; label=logo Alt
+		logoAlt = alt for logo
+	}
 	navigation {
 		# cat=t3sbootstrap/c-navigation/01; type=boolean; label=Shows the NavBar: Shows the navBar in the frontend
 		navbar.enable = 1
@@ -62,6 +71,10 @@ plugin.t3sbootstrap_configuration {
 
 		# cat=t3sbootstrap/f-extensions/15; type=boolean; label=Enable Search Form: in NavBar-Right - indexed_search should be loaded
 		navbar.search.enable = 0
+
+		# cat=t3sbootstrap/c-navigation/05; type=string; label=NavBar-Right Label:
+		TopExtraMenu.uids = 2,3,5,7,8
+
 	}
 	navigation_lang {
 		# cat=t3sbootstrap/d-bslanguage/05; type=boolean; label=NavBar-Right Language Menu: enable language menu
@@ -91,7 +104,7 @@ plugin.t3sbootstrap_configuration {
 		# cat=t3sbootstrap/e-styles/21; type=boolean; label=NavBar Fixed to top:
 		navbar.style.fixed.top = 0
 		# cat=t3sbootstrap/e-styles/21; type=boolean; label=Custom NavBar (fixed to top):
-		navbar.style.fixed.custom = 0
+		navbar.style.fixed.custom = 1
 		# cat=t3sbootstrap/e-styles/22; type=boolean; label=NavBar on top: If disabled, you have to disable "NavBar Fixed to top" also.
 		navbar.onTop = 1
 		# cat=t3sbootstrap/e-styles/23; type=int+; label=NavBar Height: Is used as padding-top in the body tag (in px)

@@ -86,6 +86,8 @@ lib.navigation.main {
 }
 
 
+
+
 #-------------------------------------------------------------------------------
 #	NAVIGATION: NavBarRight - inside the NavBar (lib.navigation.main)
 #-------------------------------------------------------------------------------
@@ -350,4 +352,36 @@ lib.navbar-brand {
 	20.data = leveltitle:1
 	20.noTrimWrap = | <span class="navbar-title visible-xs-inline navbar-brand" style="padding-left:0;">{$plugin.t3sbootstrap_configuration.navigation.navbar.delimiter} |</span>|
 	20.if.isTrue.data = leveltitle:1
+
+}
+
+
+
+#-------------------------------------------------------------------------------
+#	GENERAL: Navbar-brand-logo (link: back home and title)
+#-------------------------------------------------------------------------------
+
+lib.navbar-brand-logo = COA
+lib.navbar-brand-logo {
+	10 = TEXT
+	10.value = {$plugin.t3sbootstrap_configuration.logo.logoName}
+
+
+}
+
+
+#-------------------------------------------------------------------------------
+#	GENERAL: TopExtraMenu
+#-------------------------------------------------------------------------------
+
+lib.TopExtraMenu = HMENU
+lib.TopExtraMenu.special = list
+lib.TopExtraMenu.special.value = {$plugin.t3sbootstrap_configuration.navigation.TopExtraMenu.uids}
+lib.TopExtraMenu.1 = TMENU
+
+lib.TopExtraMenu.1.expAll = 1
+lib.TopExtraMenu.1 {
+	NO.wrapItemAndSub.insertData=1
+	NO.wrapItemAndSub =<li>|</li>
+	NO.subst_elementUid = 1
 }

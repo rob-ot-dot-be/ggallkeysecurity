@@ -708,6 +708,15 @@ return array (
       array (
       ),
     ),
+    'powermail_bootstrap' => 
+    array (
+      'state' => 'inactive',
+      'packagePath' => 'typo3conf/ext/powermail_bootstrap/',
+      'classesPath' => 'Classes/',
+      'suggestions' => 
+      array (
+      ),
+    ),
     'powermail_mul' => 
     array (
       'state' => 'inactive',

@@ -1,5 +1,76 @@
-<nav role="navigation" class="navbar navbar-custom-1 navbar-fixed-top {f:if(condition: '{settings.styles.navbar.style.inverse}', then: 'navbar-inverse', else: 'navbar-default')}">
-	<div class="{f:if(condition: '{settings.styles.container-fluid}', then: 'container-fluid', else: 'container')} navBar-container">
-	  <f:render partial="NavBar/NavBarHeaderCustom" arguments="{_all}" />
+
+
+<nav class="navbar" id="rij10">
+	<div class="container">
+		<div class="navbar-header">
+
+
+
+			<ul class="nav navbar-nav">
+				<f:cObject typoscriptObjectPath="lib.TopExtraMenu" />
+				<li>extra</li>
+			</ul>
+		</div><!--/.navbar-collapse -->
 	</div>
 </nav>
+
+<div class="header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="logo">
+					<a href="/">
+						<img src="fileadmin/content/logos/mainLogo.png" class="img-responsive" />
+
+					</a>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="fastcall">
+					<p>depannage - herstellingen - plaatsing</p>
+					<p>Gent
+                  <span class="fa-stack">
+                    <i class="fa fa-circle-o fa-stack-2x"></i>
+                    <i class="fa fa-phone fa-rotate-90 fa-stack-1x"></i>
+                  </span>
+						09 269 90 90</p>
+					<p>Zottegem 09 279 90 90</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<nav class="navbar navbar-default" role="navigation">
+	<div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<f:cObject typoscriptObjectPath="lib.navigation.main" />
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+</nav>
+
+<f:comment>
+	<nav role="navigation" class="navbar navbar-custom-1 navbar-fixed-top {f:if(condition: '{settings.styles.navbar.style.inverse}', then: 'navbar-inverse', else: 'navbar-default')}">
+		<div class="{f:if(condition: '{settings.styles.container-fluid}', then: 'container-fluid', else: 'container')} navBar-container">
+			<f:render partial="NavBar/NavBarHeaderCustom" arguments="{_all}" />
+		</div>
+	</nav>
+
+</f:comment>
